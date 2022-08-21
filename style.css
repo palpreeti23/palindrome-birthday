@@ -53,8 +53,3 @@ body{
 
 }
 
-@media screen (width:768px){
-    html{
-width: 50%;
-    }
-}
