@@ -8,6 +8,7 @@ body{
 
 
 .container{
+    text-align: center;
     border: .5rem solid rgb(37 99 235);
     padding: 2rem;
     height: 30rem;
@@ -21,29 +22,31 @@ body{
 .header{
 
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 #bday-input{
 
     padding: .4rem;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 60%;
     font-size: large;
     border: .3rem solid rgb(37 99 235);
+
 }
 
 #check-btn{
 
     padding: .5rem;
     width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-top: 2rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3rem;
     font-size: 1.2rem;
     font-weight: bold;
     border: .3rem solid rgb(37 99 235);
     font-family: 'Lobster', cursive;
+    cursor: pointer;
+   
 }
 
 #output{
