@@ -3,20 +3,21 @@
 body{
 
     font-family: 'Lobster', cursive;
-   
+    max-width: 25rem;
+    margin: auto;
 }
 
 
 .container{
     text-align: center;
-    border: .5rem solid rgb(37 99 235);
+    border: .3rem solid aquamarine;
     padding: 2rem;
-    height: 30rem;
-    width: 50%;
+    height: 25rem;
     background-color: rgb(49 46 129);
-    margin: auto;
     margin-top: 2rem;
-  
+    border-radius: 1rem;
+    color: aqua;
+    box-shadow: 5px 6px gray;
 }
 
 .header{
@@ -30,7 +31,9 @@ body{
     padding: .4rem;
     width: 60%;
     font-size: large;
-    border: .3rem solid rgb(37 99 235);
+    border: .2rem solid rgb(37 99 235);
+    border-radius: .5rem;
+    background-color: aquamarine;
 
 }
 
@@ -43,10 +46,11 @@ body{
     margin-top: 3rem;
     font-size: 1.2rem;
     font-weight: bold;
-    border: .3rem solid rgb(37 99 235);
+    border: .2rem solid rgb(37 99 235);
     font-family: 'Lobster', cursive;
     cursor: pointer;
-   
+    border-radius: .5rem;
+    background-color: aquamarine;
 }
 
 #output{
@@ -54,5 +58,14 @@ body{
     text-align: center;
     font-size: 1.5rem;
 
+}
+
+@media screen (width : 768px){
+
+    html{
+
+        width : 80%;
+    }
+    
 }
 
